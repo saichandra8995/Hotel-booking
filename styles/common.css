@@ -1,6 +1,8 @@
 html,body{
     height: 100%;
     width: 100%;
+    margin: 0px;
+    background-color: #e0e0e0;
 }
 /* changing the size of logo in header div*/
 #logo{
@@ -9,10 +11,16 @@ html,body{
 }
 /* changing the size of social media logo in footer div*/
 .social-icons{
-width: 22px;
-height: 20px;
+    width: 22px;
+    height: 20px;
 }
 .wrapper{
     height:100%;
     width:100%;
+}
+header{
+    background-color:rosybrown;
+}
+footer{
+    background-color:rosybrown;
 }

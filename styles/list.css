@@ -1,0 +1,7 @@
+.hotel-img{
+    height: 200px;
+    width: 250px;
+}
+#list, #map{
+    scroll-behavior: smooth;
+}

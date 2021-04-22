@@ -5,8 +5,13 @@
 #list, #map{
     scroll-behavior: smooth;
 }
+#map{
+    display: none;  
+    scroll-behavior: smooth;
+}
 .hotels{
     margin: 2%;
     background-color: rgb(132, 136, 139);
     width: 40%;
+    float: left;
 }

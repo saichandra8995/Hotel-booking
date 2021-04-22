@@ -4,6 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Index</title>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="styles/common.css">
     </head>
@@ -11,10 +12,10 @@
         <div class="wrapper">
             <header>                
                 <img src="assests/images/logo.png" alt="logo" id="logo">
-                <a href="login.html" target="_self">Login</a> 
+                <a href="login.html" target="_self" id="login">Login</a> 
             </header>
 
-            <div class="content">
+            <div class="content" style="overflow-y: scroll; width: 100%;  overflow: hidden; position: absolute; height: 750px;">
                 <div id="content-1">
                     <input type="text" name="city" id="city" placeholder="City">
                 </div>
@@ -35,14 +36,14 @@
                     </span>
                 </div>
                 <div>
-                    <a href="index.html">View more>></a>
+                    <a href="index.html" ><p style="margin: auto;text-align: center;"> View more>></p></a>
                 </div>
             </div>
             <footer>
                 <div>
-                    <a href="contact.html" target="_self">Contact Us</a>
+                    <a href="contact.html" target="_self" id="contact">Contact Us</a>
                 </div>
-                <div>
+                <div class="iconstyle">
                     <span>
                         <a href="https://www.facebook.com/" target="_blank">
                             <img src="assests/images/facebook.png" class="social-icons" alt="facebook">
@@ -59,7 +60,7 @@
                         </a>
                     </span>
                 </div>
-                <div>
+                <div class="copyRight">
                     <span>&#169;</span>
                     <span> 2020 ROOM SEARCH PVT. LTD.</span>
                 </div> 

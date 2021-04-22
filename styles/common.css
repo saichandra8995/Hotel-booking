@@ -9,7 +9,13 @@ html,body{
     height:100%;
     width:100%;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 header{
+    display: flex;
+    flex-direction: row;
     background-color:rosybrown;
     position: fixed;
     width:100%;
@@ -17,31 +23,28 @@ header{
     z-index: 80;
 }
 footer{
+    display: flex;
+    flex-direction: row;
     background-color:rosybrown;
     position: fixed;
     width:100%;
     bottom: 0;
     height: 60px;
+    align-items: center;
 }
 #logo{
     height: 60px;
     width: 60px;
     margin: auto;
+    margin-left: 1%;
 }
 .social-icons{
     width: 22px;
     height: 20px;
-    text-decoration: none;
 }
 .iconstyle{
     position: absolute;
     right: 1%;
-    align-items: center;
-    bottom: 32%;
-}
-a{
-    text-decoration: none;
-    color: black;
 }
 #login{
     right: 0%;
@@ -51,12 +54,12 @@ a{
 }
 #contact{
     bottom: 32%;
-    margin-left: 1%;
+    margin-left: 2%;
     position: absolute;
     text-align: center;
 }
 .copyRight{
-    margin-top: 3.3%;
+    margin-left: 45%;
     font-size: 10px;
     text-align: center;
 }

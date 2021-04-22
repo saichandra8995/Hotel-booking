@@ -2,7 +2,7 @@
     height: 200px;
     width: 250px;
 }
-#list, #map{
+#list{
     scroll-behavior: smooth;
 }
 #map{
@@ -10,8 +10,15 @@
     scroll-behavior: smooth;
 }
 .hotels{
-    margin: 2%;
-    background-color: rgb(132, 136, 139);
+    background-color: lightgrey;
     width: 40%;
     float: left;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
 }

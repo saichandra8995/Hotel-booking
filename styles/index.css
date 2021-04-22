@@ -1,8 +1,11 @@
-.placeimage{
+.placeimage,.image{
     height: 150px;
     width: 150px;
-    padding: 4%;
     border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
+}
+.content{
+    height: 750px;
 }
 #content-1{
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
@@ -14,7 +17,7 @@
 input{
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 29%;
+    top: 34%;
     left: 51%;
     width: 29%;
     border: 1px solid transparent;
@@ -23,4 +26,58 @@ input{
     border-radius: 12px; 
     text-align: start;  
     font-size: 16px; 
+    outline: none;
 }
+#content-2{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+#content-3{
+    margin: auto;
+    text-align: center;
+}
+.text1Sty{
+    position: absolute;
+    bottom: 90px;
+    left: 259px;
+    color: #f1f1f1;
+    visibility: hidden;
+  }
+  .text2Sty{
+    position: absolute;
+    bottom: 90px;
+    left:525px;
+    color: #f1f1f1; 
+    visibility: hidden;
+  }
+  .text3Sty{
+    position: absolute;
+    bottom: 90px;
+    left:766px;
+    color: #f1f1f1;
+    visibility: hidden;
+  }
+.text4Sty{
+    position: absolute;
+    bottom: 90px;
+    left:1045px;
+    color: #f1f1f1;
+    visibility: hidden;
+}
+.placeimage:hover{
+    filter: brightness(50%); 
+}
+.placeimage:hover + .text1Sty {
+    visibility: visible;
+}
+.placeimage:hover + .text2Sty {
+    visibility: visible;
+}
+.placeimage:hover + .text3Sty {
+    visibility: visible;
+}
+.placeimage:hover + .text4Sty {
+    visibility: visible;
+} 

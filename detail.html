@@ -11,30 +11,50 @@
     <body>
         <div class="wrapper">
             <header >                
-                <a href="index.html" target="_self"><img src="assests/images/logo.png" alt="logo" id="logo"></a>
+                <span style="margin-left: 1%;"><a href="index.html" target="_self"><img src="assests/images/logo.png" alt="logo" id="logo"></a></span>
                 <a href="login.html" target="_self" id="login">Login</a> 
             </header>
             <div class="content" style="overflow: auto;">
-                <img class="hotel-img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
-                <br/>
-                <form method="GET" action="payment.html" target="_self" autocomplete="off">
-                    <label for="adults">Adults:</label>
-                    <input type="number" name="adults" id="adult" min="1" value="1" required><br>
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" required><br>
-                    <label for="from">From Date:</label>
-                    <input type="date" name="from" id="fromDate" required><br>
-                    <label for="to">To Date:</label>
-                    <input type="date" name="to" id="toDate" required><br>
-                    <label for="total">Total:</label>
-                    <input type="text" name="total" id="price" readonly><br>
-                    <input type="submit" value="Book Now">
-                </form>
+                <div class="mainDiv">
+                    <div class="imgDiv">
+                        <img class="hotel-img" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                    </div>
+                    <div class="formDiv">
+                        <form method="GET" action="payment.html" target="_self" autocomplete="off">
+                            <ul style="list-style-type: none;">
+                                <li class="listSty">
+                                    <label class="labelSty" for="adults">Adults:</label>
+                                    <input class="inputSty" type="number" id="adults" value="1" min="1" name="adults" required ></br>
+                                </li>
+                                <li class="listSty">
+                                    <label class="labelSty" for="name">Name: </label>
+                                    <input class="inputSty" type="text" id="name" name="name" required/></br>
+                                </li>
+                                <li class="listSty">
+                                    <label class="labelSty"  for="fromDate" >From Date:</label>
+                                    <input class="inputSty" type="date" id="fromDate" name="fromDate" required/></br>
+                                </li>
+                                <li class="listSty">
+                                    <label class="labelSty" for="toDate">To Date:</label>
+                                    <input class="inputSty" type="date" id="toDate" name="toDate" required/></br>
+                                </li>
+                                <li class="listSty">
+                                    <label class="labelSty" for="total">Total:</label>
+                                    <input class="inputSty" type="number" id="total" name="total" readonly></br>
+                                </li>
+                                <li style="display: flex; padding: 1em; justify-content: center;">
+                                    <a href="payment.html" target="_self">
+                                    <button style="padding:10px" id="bookNow">Book Now</button> </a> 
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
                 <div class="hotel-description">
                     <h2>Radisson Blu Hotel</h2>
-                    <p>RATING</p>
+                    <h4 style="font-family:cursive;"><strong>RATING</strong></h4>
                     <p>5 Star</p>
-                    <p>AMENITIES</p>
+                    <h4 style="font-family:cursive;"><strong>AMENITIES</strong></h4>
                     <p>
                         <ul>
                             <li>Room Service</li>
@@ -44,7 +64,7 @@
                             <li>Pool</li>
                         </ul>
                     </p>
-                    <h5>DESCRIPTION</h5>
+                    <h4 style="font-family:cursive;"><strong>DESCRIPTION</strong></h4>
                     <p style="margin-bottom: 8%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has</p>
                 </div>
             </div>

@@ -3,7 +3,9 @@
     width: 500px;
 }
 form{
-    display:flex; justify-content:space-around; flex-direction: column;
+    display:flex;
+     justify-content:space-around;
+      flex-direction: column;
 }
 .hotel-description{
     position: absolute;
@@ -24,7 +26,6 @@ form{
     justify-content: center;
 }
 .imgDiv{
-
     display: flex; 
     flex-grow: 3; 
     justify-content: center; 
@@ -32,7 +33,6 @@ form{
     border: 1px solid black
 }
 .formDiv{
-
     flex-grow: 1; 
     padding: 20px; 
     border-left: 0px; 
@@ -42,16 +42,14 @@ form{
     border-style: solid;
     border-color: black;
    
-   }
-   .listSty{
-       display: flex; 
-       padding: 1em;
-   }
-   
-   .labelSty{
-      flex:1;
-   }
-   
-   .inputSty{
-      width:60%;
-   }
+}
+.listSty{
+   display: flex; 
+   padding: 1em;
+}
+.labelSty{
+  flex:1;
+}  
+.inputSty{
+    width:60%;
+}

@@ -12,7 +12,6 @@ function store() {
       console.log(document.getElementById("logout-button").innerHTML);
       document.getElementById("logout-button").innerHTML = "LOGOUT";
       document.getElementById("logout-button").setAttribute("data-toggle", "none");
-      
     }
   }
   function logout() {
